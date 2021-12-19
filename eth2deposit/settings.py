@@ -15,7 +15,7 @@ PRATER = 'prater'
 
 
 # Eth2 Mainnet setting
-MainnetSetting = BaseChainSetting(ETH2_NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('00000000'))
+MainnetSetting = BaseChainSetting(ETH2_NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('00008787'))
 # Eth2 pre-launch testnet (spec v1.0.0)
 PyrmontSetting = BaseChainSetting(ETH2_NETWORK_NAME=PYRMONT, GENESIS_FORK_VERSION=bytes.fromhex('00002009'))
 # Eth2 testnet (spec v1.0.1)
